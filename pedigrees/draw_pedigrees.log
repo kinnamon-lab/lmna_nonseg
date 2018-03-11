@@ -1,0 +1,41 @@
+Analysis started 2018-03-11 18:13:12-04:00
+=== JOB INFORMATION ===
+Current Commit: 533d6e4f8d72fdf326297010acd103378a369528
+Job Script:     --/pedigrees/draw_pedigrees.sh
+Input data:     --/data/lmna_nonseg_data.csv
+Output:         
+                --/data/madeline_data.dat
+                --/pedigrees/*.svg
+Loaded Modules: git/2.12.3:Madeline/2.0-70dcd93b
+===
+
+Creating data/madeline_data.dat...
+--------------------------------------------
+[1;34m LABELS                          TOTAL: 6[0m
+--------------------------------------------
+ 1. IndividualID
+ 2. n_lmna_vars
+ 3. n_oth_vars
+ 4. age_echo_yrs
+ 5. lvedd_z
+ 6. lvef
+--------------------------------------------
+Parser::readFile(): Opening a(n) UTF-8 file ...
+Reading file data in delimited format ...
+----------------------------------------------------------------
+[1;34m ICON COLUMNS                                        TOTAL: 1[0m
+----------------------------------------------------------------
+   1. Affected                         has 5 non-missing levels.
+----------------------------------------------------------------
+Table 1 is a pedigree table.
+Start of addPedigreesFromDataTable
+Default ordering of siblings.
+End of addPedigreesFromDataTable
+Start of draw
+Pedigree output file is “pedigrees/family_L.svg”
+Pedigree output file is “pedigrees/family_N.svg”
+Pedigree output file is “pedigrees/family_O.svg”
+Pedigree output file is “pedigrees/family_P.svg”
+Pedigree output file is “pedigrees/family_S.svg”
+End of draw
+Analysis completed successfully 2018-03-11 18:13:12-04:00

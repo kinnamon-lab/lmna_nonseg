@@ -67,13 +67,18 @@ FNR > 1 {
   if ($colidx["vital_status"] == "Deceased") dead = "Y"
   else if ($colidx["vital_status"] == "Alive") dead = "N"
   else dead = "."
+
+  if ($colidx["proband"] == 1) proband = "Y"
+  else if ($colidx["proband"] == 0) proband = "N"
+  else proband = "."
+
   print $colidx["family_ID"],
     $colidx["individual_ID"],
     sex,
     $colidx["paternal_ID"] == 0 ? "." : $colidx["paternal_ID"],
     $colidx["maternal_ID"] == 0 ? "." : $colidx["maternal_ID"],
     $colidx["grade"] == "n/a" ? "." : $colidx["grade"],
-    $colidx["proband"],
+    proband,
     dead,
     $colidx["n_lmna_vars"] == "n/a" ? "." : $colidx["n_lmna_vars"],
     $colidx["n_oth_vars"] == "n/a" ? "." : $colidx["n_oth_vars"],

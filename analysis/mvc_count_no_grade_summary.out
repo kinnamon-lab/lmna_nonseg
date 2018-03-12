@@ -1,0 +1,60 @@
+
+                        POLYGENIC-QTL OPTION
+
+                    SUMMARY FOR MEAN PARAMETERS
+ 
+ TRAIT             PARAMETER    PREDICTOR          ESTIMATE        STD ERR
+ 
+ lvedd_z               1        GRAND                2.4044         0.8933
+ lvedd_z               3        female              -0.6275         0.6712
+ lvedd_z               4        age_echo_yrs         0.5136         0.3753
+ lvedd_z               5        n_lmna_vars         -1.1600         0.6572
+ lvedd_z               6        n_oth_vars           1.1387         0.6391
+ lvef                  2        GRAND               52.1880         8.6978
+ lvef                  7        female               5.3518         5.4457
+ lvef                  8        age_echo_yrs        -4.1015         3.1044
+ lvef                  9        n_lmna_vars          2.7300         5.6588
+ lvef                 10        n_oth_vars         -11.0060         5.0513
+
+                    SUMMARY FOR COVARIANCE PARAMETERS
+ 
+ TRAIT             TRAIT                VARIANCE           ESTIMATE      STD_ERR_1     STD_ERR_2
+ 
+ lvedd_z           lvedd_z              ADDITIVE             0.7347         1.4717        1.8034
+ lvef              lvedd_z              ADDITIVE            -9.9739        15.3833       17.3354
+ lvef              lvef                 ADDITIVE           135.3918       172.4061      189.0730
+ lvedd_z           lvedd_z              ENVIRONMENTAL        2.0779         1.2910        1.3218
+ lvef              lvedd_z              ENVIRONMENTAL       -7.9199        11.6259       12.2556
+ lvef              lvef                 ENVIRONMENTAL       82.1470       119.0869      139.9309
+
+ TRAIT             TRAIT           TOTAL VARIANCE OR COVARIANCE
+ 
+ lvedd_z           lvedd_z                   2.8126
+ lvef              lvedd_z                 -17.8937
+ lvef              lvef                    217.5388
+
+
+ 
+ FOR PUBLICATION PURPOSES, PLEASE CITE THE OVERALL REFERENCE:
+
+ Lange K, Papp JC, Sinsheimer JS, Sripracha R, Zhou H, Sobel EM (2013)
+ Mendel: The Swiss army knife of genetic analysis programs.
+ Bioinformatics 29:1568-1570.
+
+ FOR THIS SPECIFIC ANALYSIS OPTION, PLEASE ALSO CITE THE REFERENCES:
+
+ Lange K, Westlake J, Spence MA (1976). Extensions to pedigree analysis. III.
+ Variance components by the scoring method.
+ Annals of Human Genetics 39:485-491.
+
+ Lange K, Boehnke M (l983). Extensions to pedigree analysis. IV.
+ Covariance components models for multivariate traits.
+ American Journal of Medical Genetics 14:513-524.
+
+ Bauman L, Almasy L, Blangero J, Duggirala R, Sinsheimer JS, Lange K (2005).
+ Fishing for pleiotropic QTLs in a polygenic sea.
+ Annals of Human Genetics 69:590-611.
+
+ Lange K, Sobel E (2006). Variance component models for X-linked QTLs.
+ Genetic Epidemiology 30:380-383.
+

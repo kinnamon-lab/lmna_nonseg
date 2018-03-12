@@ -1,0 +1,74 @@
+
+                        POLYGENIC-QTL OPTION
+
+                    SUMMARY FOR MEAN PARAMETERS
+ 
+ TRAIT             PARAMETER    PREDICTOR          ESTIMATE        STD ERR
+ 
+ lvedd_z               1        GRAND                1.1940         0.8544
+ lvedd_z               4        female              -0.3973         0.6692
+ lvedd_z               5        age_echo_yrs         0.0227         0.0211
+ lvedd_z               6        n_lmna_vars         -1.1369         0.6437
+ lvedd_z               7        n_oth_vars           1.3015         0.6046
+ lvef                  2        GRAND               62.3165         7.9591
+ lvef                  8        female               5.3780         5.4809
+ lvef                  9        age_echo_yrs        -0.2829         0.1845
+ lvef                 10        n_lmna_vars          2.6007         5.6169
+ lvef                 11        n_oth_vars         -10.5765         5.0366
+ grade                 3        GRAND               -0.0791         0.6270
+ grade                12        female              -0.2221         0.4810
+ grade                13        age_echo_yrs         0.0374         0.0151
+ grade                14        n_lmna_vars         -0.5238         0.4708
+ grade                15        n_oth_vars           0.6945         0.3979
+
+                    SUMMARY FOR COVARIANCE PARAMETERS
+ 
+ TRAIT             TRAIT                VARIANCE           ESTIMATE      STD_ERR_1     STD_ERR_2
+ 
+ lvedd_z           lvedd_z              ADDITIVE             0.7333         1.4941        1.8414
+ lvef              lvedd_z              ADDITIVE            -9.9319        14.5713       16.2287
+ lvef              lvef                 ADDITIVE           134.5215       161.9428      176.0009
+ grade             lvedd_z              ADDITIVE             0.6119         1.0793        1.2687
+ grade             lvef                 ADDITIVE            -8.2873        11.3842       12.6021
+ grade             grade                ADDITIVE             0.5105         0.8359        0.9677
+ lvedd_z           lvedd_z              ENVIRONMENTAL        2.0040         1.2830        1.3154
+ lvef              lvedd_z              ENVIRONMENTAL       -7.0724        11.0965       11.7399
+ lvef              lvef                 ENVIRONMENTAL       82.1131       111.7321      131.6871
+ grade             lvedd_z              ENVIRONMENTAL        1.0487         0.8765        0.9091
+ grade             lvef                 ENVIRONMENTAL       -6.8788         8.2452        9.0858
+ grade             grade                ENVIRONMENTAL        1.0033         0.6578        0.7009
+
+ TRAIT             TRAIT           TOTAL VARIANCE OR COVARIANCE
+ 
+ lvedd_z           lvedd_z                   2.7372
+ lvef              lvedd_z                 -17.0042
+ lvef              lvef                    216.6345
+ grade             lvedd_z                   1.6605
+ grade             lvef                    -15.1661
+ grade             grade                     1.5139
+
+
+ 
+ FOR PUBLICATION PURPOSES, PLEASE CITE THE OVERALL REFERENCE:
+
+ Lange K, Papp JC, Sinsheimer JS, Sripracha R, Zhou H, Sobel EM (2013)
+ Mendel: The Swiss army knife of genetic analysis programs.
+ Bioinformatics 29:1568-1570.
+
+ FOR THIS SPECIFIC ANALYSIS OPTION, PLEASE ALSO CITE THE REFERENCES:
+
+ Lange K, Westlake J, Spence MA (1976). Extensions to pedigree analysis. III.
+ Variance components by the scoring method.
+ Annals of Human Genetics 39:485-491.
+
+ Lange K, Boehnke M (l983). Extensions to pedigree analysis. IV.
+ Covariance components models for multivariate traits.
+ American Journal of Medical Genetics 14:513-524.
+
+ Bauman L, Almasy L, Blangero J, Duggirala R, Sinsheimer JS, Lange K (2005).
+ Fishing for pleiotropic QTLs in a polygenic sea.
+ Annals of Human Genetics 69:590-611.
+
+ Lange K, Sobel E (2006). Variance component models for X-linked QTLs.
+ Genetic Epidemiology 30:380-383.
+

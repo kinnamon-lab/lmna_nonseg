@@ -1,0 +1,28 @@
+proband,      factor,   2
+    0
+    1
+vital_status, factor,   2
+    Alive
+    Deceased
+f_lmna_vars,  factor      ! Factor for tabulations
+f_oth_vars,   factor      ! Factor for tabulations
+f_grade,      factor      ! Factor for tabulations
+female,       variable, 2 ! Numeric to allow reference parameterization
+    lower, 0
+    upper, 1
+n_lmna_vars,  variable, 2 ! Numeric to allow reference parameterization
+    lower, 0
+    upper, 1
+n_oth_vars,   variable, 2
+    lower, 0
+    upper, 4
+grade,        variable, 2
+    lower, 0
+    upper, 4
+age_echo_yrs, variable, 2
+    lower, 0
+    upper, 90
+lvedd_z,      variable
+lvef,         variable, 2
+    lower, 1
+    upper, 100

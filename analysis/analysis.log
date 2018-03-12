@@ -1,0 +1,397 @@
+Analysis started 2018-03-11 20:39:36-04:00
+=== JOB INFORMATION ===
+Current Commit: 65bb62fe16d01d94014e6f5f0d37cecd3e2d3843
+Job Script:     --/analysis/run_analysis.sh
+Input data:     --/data/lmna_nonseg_data.csv
+Output:         
+                --/data/mendel_data.ped
+                --/data/mendel_data.def
+                --/analysis/*.{ctrl,out}
+Loaded Modules: git/2.12.3:Mendel/16.0
+===
+
+Creating data/mendel_data.def...
+Creating data/mendel_data.ped...
+Creating control files...
+Running Mendel on analysis/mvc_any.ctrl...
+
+                       WELCOME TO MENDEL, VERSION 16.0
+ 
+                   (c) COPYRIGHT KENNETH LANGE, 1985-2016
+                       ALL COMMERCIAL RIGHTS RESERVED
+                   PROGRAMMED BY KENNETH LANGE & ERIC SOBEL
+ 
+              DOCUMENTATION AND MOST RECENT VERSION AVAILABLE AT
+                 http://www.genetics.ucla.edu/software/mendel
+
+ 
+        READING AND INITIALIZING DATA ...
+ 
+ INITIALIZATION RUN TIME  :  0.129 SECONDS
+
+        MENDEL DATA INITIALIZATION COMPLETED.
+ 
+
+        PERFORMING DATA ANALYSIS ...
+
+ POLYGENIC-QTL OPTION
+           1  -148.383170395412     
+           2  -145.331567333291     
+           3  -145.331663761110     
+           4  -145.310658401580     
+           5  -145.307560072130     
+           6  -145.306566922257     
+           7  -145.302460990378     
+           8  -144.886372030571     
+           9  -126.695964404721     
+          10  -126.058966008015     
+          11  -117.612452293981     
+          12  -115.820663202802     
+          13  -114.297661293228     
+          14  -113.885045691964     
+          15  -113.360308381928     
+          16  -112.830520697038     
+          17  -112.748822851169     
+          18  -112.629115308502     
+          19  -112.518849962689     
+          20  -112.496592174522     
+          21  -112.428875535864     
+          22  -112.422056525832     
+          23  -112.398743942706     
+          24  -112.373424687442     
+          25  -112.369286097094     
+          26  -112.355475753848     
+          27  -112.352278999425     
+          28  -112.348409214984     
+          29  -112.345738430228     
+          30  -112.340023445604     
+          31  -112.338428693225     
+          32  -112.335549372261     
+          33  -112.333440208681     
+          34  -112.330847835262     
+          35  -112.329028409004     
+          36  -112.328717448534     
+          37  -112.327624036683     
+          38  -112.326359034804     
+          39  -112.325079440974     
+          40  -112.322395363496     
+          41  -112.321695636150     
+          42  -112.320255397332     
+          43  -112.317297086813     
+          44  -112.315434085004     
+          45  -112.315025703318     
+          46  -112.314860146384     
+          47  -112.314855973327     
+          48  -112.314855282536     
+          49  -112.314855193542     
+          50  -112.314855047249     
+ 
+ ANALYSIS RUN TIME  :  0.200 SECONDS
+
+        MENDEL DATA ANALYSIS COMPLETED.
+ 
+ 
+  THE FILE analysis/mvc_any_summary.out CONTAINS THE SUMMARY OUTPUT.
+  THE FILE analysis/mvc_any.out CONTAINS THE DETAILED OUTPUT.
+ 
+Running Mendel on analysis/mvc_count.ctrl...
+
+                       WELCOME TO MENDEL, VERSION 16.0
+ 
+                   (c) COPYRIGHT KENNETH LANGE, 1985-2016
+                       ALL COMMERCIAL RIGHTS RESERVED
+                   PROGRAMMED BY KENNETH LANGE & ERIC SOBEL
+ 
+              DOCUMENTATION AND MOST RECENT VERSION AVAILABLE AT
+                 http://www.genetics.ucla.edu/software/mendel
+
+ 
+        READING AND INITIALIZING DATA ...
+ 
+ INITIALIZATION RUN TIME  :  0.130 SECONDS
+
+        MENDEL DATA INITIALIZATION COMPLETED.
+ 
+
+        PERFORMING DATA ANALYSIS ...
+
+ POLYGENIC-QTL OPTION
+           1  -147.237843893713     
+           2  -145.441546899276     
+           3  -145.443612498209     
+           4  -145.427804309912     
+           5  -145.427156149354     
+           6  -145.426861955661     
+           7  -145.424549324367     
+           8  -145.219744588217     
+           9  -126.915065996527     
+          10  -125.869196767981     
+          11  -122.079383694636     
+          12  -115.114071821631     
+          13  -113.782210488905     
+          14  -113.383256907719     
+          15  -112.786507107977     
+          16  -112.569458878138     
+          17  -112.498973005699     
+          18  -112.476226717274     
+          19  -112.451407652857     
+          20  -112.423864173498     
+          21  -112.415865855413     
+          22  -112.391542491287     
+          23  -112.383143528442     
+          24  -112.368863025957     
+          25  -112.364583076859     
+          26  -112.359097365802     
+          27  -112.356798565348     
+          28  -112.356121432994     
+          29  -112.352748286980     
+          30  -112.350036364700     
+          31  -112.345978770430     
+          32  -112.341436280441     
+          33  -112.338743142391     
+          34  -112.332932693428     
+          35  -112.322146021597     
+          36  -112.318448768987     
+          37  -112.305475068085     
+          38  -112.295336515493     
+          39  -112.284390705565     
+          40  -112.277203053431     
+          41  -112.276172285229     
+          42  -112.274793247393     
+          43  -112.273459073684     
+          44  -112.273015910337     
+          45  -112.272535263420     
+          46  -112.271133477303     
+          47  -112.270112741715     
+          48  -112.270013078841     
+          49  -112.269958246594     
+          50  -112.269945542643     
+          51  -112.269942607302     
+ 
+ ANALYSIS RUN TIME  :  0.195 SECONDS
+
+        MENDEL DATA ANALYSIS COMPLETED.
+ 
+ 
+  THE FILE analysis/mvc_count_summary.out CONTAINS THE SUMMARY OUTPUT.
+  THE FILE analysis/mvc_count.out CONTAINS THE DETAILED OUTPUT.
+ 
+Running Mendel on analysis/mvc_any_no_grade.ctrl...
+
+                       WELCOME TO MENDEL, VERSION 16.0
+ 
+                   (c) COPYRIGHT KENNETH LANGE, 1985-2016
+                       ALL COMMERCIAL RIGHTS RESERVED
+                   PROGRAMMED BY KENNETH LANGE & ERIC SOBEL
+ 
+              DOCUMENTATION AND MOST RECENT VERSION AVAILABLE AT
+                 http://www.genetics.ucla.edu/software/mendel
+
+ 
+        READING AND INITIALIZING DATA ...
+ 
+ INITIALIZATION RUN TIME  :  0.130 SECONDS
+
+        MENDEL DATA INITIALIZATION COMPLETED.
+ 
+
+        PERFORMING DATA ANALYSIS ...
+
+ POLYGENIC-QTL OPTION
+           1  -125.673924568136     
+           2  -125.650629757286     
+           3  -125.583533550131     
+           4  -125.522224146398     
+           5  -125.452391886037     
+           6  -125.387710574226     
+           7  -125.271427058222     
+           8  -118.120999466576     
+           9  -116.584603647982     
+          10  -115.086600375021     
+          11  -114.880596949143     
+          12  -114.762431340401     
+          13  -114.703016004764     
+          14  -114.645448366468     
+          15  -114.633899579528     
+          16  -114.618877934726     
+          17  -114.615068493707     
+          18  -114.609675656438     
+          19  -114.607627741279     
+          20  -114.605240112897     
+          21  -114.602737226154     
+          22  -114.599454073239     
+          23  -114.588982004003     
+          24  -114.583024301207     
+          25  -114.570427114454     
+          26  -114.556890506558     
+          27  -114.550974382036     
+          28  -114.550628907010     
+          29  -114.549205767775     
+          30  -114.546983515112     
+          31  -114.546661966430     
+          32  -114.546483180045     
+          33  -114.546465183953     
+          34  -114.546462693564     
+          35  -114.546462592813     
+          36  -114.546462591843     
+ 
+ ANALYSIS RUN TIME  :  0.083 SECONDS
+
+        MENDEL DATA ANALYSIS COMPLETED.
+ 
+ 
+  THE FILE analysis/mvc_any_no_grade_summary.out CONTAINS THE SUMMARY OUTPUT.
+  THE FILE analysis/mvc_any_no_grade.out CONTAINS THE DETAILED OUTPUT.
+ 
+Running Mendel on analysis/mvc_count_no_grade.ctrl...
+
+                       WELCOME TO MENDEL, VERSION 16.0
+ 
+                   (c) COPYRIGHT KENNETH LANGE, 1985-2016
+                       ALL COMMERCIAL RIGHTS RESERVED
+                   PROGRAMMED BY KENNETH LANGE & ERIC SOBEL
+ 
+              DOCUMENTATION AND MOST RECENT VERSION AVAILABLE AT
+                 http://www.genetics.ucla.edu/software/mendel
+
+ 
+        READING AND INITIALIZING DATA ...
+ 
+ INITIALIZATION RUN TIME  :  0.129 SECONDS
+
+        MENDEL DATA INITIALIZATION COMPLETED.
+ 
+
+        PERFORMING DATA ANALYSIS ...
+
+ POLYGENIC-QTL OPTION
+           1  -124.974285672045     
+           2  -124.966143611220     
+           3  -124.949491477030     
+           4  -124.933887878468     
+           5  -124.007521953754     
+           6  -124.007093738834     
+           7  -118.273701294818     
+           8  -116.264980611392     
+           9  -115.369933145449     
+          10  -115.170592535289     
+          11  -114.945639855022     
+          12  -114.852407493727     
+          13  -114.776210136585     
+          14  -114.723662500972     
+          15  -114.627391916702     
+          16  -114.623697325400     
+          17  -114.607522376241     
+          18  -114.590057885814     
+          19  -114.562963988013     
+          20  -114.505838227007     
+          21  -114.489592833798     
+          22  -114.458983870277     
+          23  -114.446083261447     
+          24  -114.421250233125     
+          25  -114.418638288075     
+          26  -114.413230181152     
+          27  -114.409966882234     
+          28  -114.406351562493     
+          29  -114.405919861606     
+          30  -114.405478522683     
+          31  -114.405367138940     
+          32  -114.405358649656     
+          33  -114.405354474794     
+          34  -114.405353749178     
+          35  -114.405353718637     
+ 
+ ANALYSIS RUN TIME  :  0.074 SECONDS
+
+        MENDEL DATA ANALYSIS COMPLETED.
+ 
+ 
+  THE FILE analysis/mvc_count_no_grade_summary.out CONTAINS THE SUMMARY OUTPUT.
+  THE FILE analysis/mvc_count_no_grade.out CONTAINS THE DETAILED OUTPUT.
+ 
+Running Mendel on analysis/mvc_count_no_age_tx.ctrl...
+
+                       WELCOME TO MENDEL, VERSION 16.0
+ 
+                   (c) COPYRIGHT KENNETH LANGE, 1985-2016
+                       ALL COMMERCIAL RIGHTS RESERVED
+                   PROGRAMMED BY KENNETH LANGE & ERIC SOBEL
+ 
+              DOCUMENTATION AND MOST RECENT VERSION AVAILABLE AT
+                 http://www.genetics.ucla.edu/software/mendel
+
+ 
+        READING AND INITIALIZING DATA ...
+ 
+ INITIALIZATION RUN TIME  :  0.147 SECONDS
+
+        MENDEL DATA INITIALIZATION COMPLETED.
+ 
+
+        PERFORMING DATA ANALYSIS ...
+
+ POLYGENIC-QTL OPTION
+           1  -147.237843893713     
+           2  -145.474772598319     
+           3  -145.474050812351     
+           4  -145.458189382133     
+           5  -145.456193028604     
+           6  -145.455282687495     
+           7  -145.449589321638     
+           8  -145.245779023800     
+           9  -126.905374967889     
+          10  -119.242406761987     
+          11  -118.297578459495     
+          12  -116.094529627217     
+          13  -113.817553471253     
+          14  -113.023080982922     
+          15  -112.786545645123     
+          16  -112.485743233119     
+          17  -112.453354703919     
+          18  -112.436797909975     
+          19  -112.407913324854     
+          20  -112.393341967177     
+          21  -112.385236429253     
+          22  -112.373732795514     
+          23  -112.371026872241     
+          24  -112.361670185366     
+          25  -112.358976574258     
+          26  -112.356932288925     
+          27  -112.353731160057     
+          28  -112.351833027641     
+          29  -112.347239454973     
+          30  -112.345665024635     
+          31  -112.341363269518     
+          32  -112.337520192512     
+          33  -112.333153889249     
+          34  -112.327065903568     
+          35  -112.325411360234     
+          36  -112.319186656715     
+          37  -112.313153582511     
+          38  -112.304573844929     
+          39  -112.296589845132     
+          40  -112.290310135118     
+          41  -112.283362723148     
+          42  -112.279896167504     
+          43  -112.275399709110     
+          44  -112.270987822087     
+          45  -112.270812929460     
+          46  -112.270721122471     
+          47  -112.270494421611     
+          48  -112.270349858625     
+          49  -112.270209473721     
+          50  -112.269994511812     
+          51  -112.269969605760     
+          52  -112.269943155477     
+          53  -112.269935363872     
+          54  -112.269935098143     
+ 
+ ANALYSIS RUN TIME  :  0.202 SECONDS
+
+        MENDEL DATA ANALYSIS COMPLETED.
+ 
+ 
+  THE FILE analysis/mvc_count_no_age_tx_summary.out CONTAINS THE SUMMARY OUTPUT.
+  THE FILE analysis/mvc_count_no_age_tx.out CONTAINS THE DETAILED OUTPUT.
+ 
+Analysis completed successfully 2018-03-11 20:39:37-04:00

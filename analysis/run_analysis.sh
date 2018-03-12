@@ -54,6 +54,9 @@ proband,      factor,   2
 vital_status, factor,   2
     Alive
     Deceased
+f_lmna_vars,  factor      ! Factor for tabulations
+f_oth_vars,   factor      ! Factor for tabulations
+f_grade,      factor      ! Factor for tabulations
 female,       variable, 2 ! Numeric to allow reference parameterization
     lower, 0
     upper, 1
@@ -93,6 +96,9 @@ FNR > 1 {
     $colidx["sex"],
     $colidx["proband"],
     $colidx["vital_status"] == "n/a" ? "" : $colidx["vital_status"],
+    $colidx["n_lmna_vars"] == "n/a" ? "" : $colidx["n_lmna_vars"],
+    $colidx["n_oth_vars"] == "n/a" ? "" : $colidx["n_oth_vars"],
+    $colidx["grade"]  == "n/a" ? "" : $colidx["grade"],
     $colidx["sex"] - 1,
     $colidx["n_lmna_vars"] == "n/a" ? "" : $colidx["n_lmna_vars"],
     $colidx["n_oth_vars"] == "n/a" ? "" : $colidx["n_oth_vars"],
